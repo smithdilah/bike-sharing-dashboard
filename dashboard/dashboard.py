@@ -4,7 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load Data
-df_hour = pd.read_csv("main_data.csv")
+df_hour = pd.read_csv("dashboard\main_data.csv")
 df_hour["dteday"] = pd.to_datetime(df_hour["dteday"])  # Konversi ke datetime
 
 # Mapping Kategori Cuaca
